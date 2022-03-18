@@ -39,5 +39,5 @@ for temp in same_datatype_list:
 # list comprehension
 list1 = [temp + 1 for temp in range(10)]
 print(list1)
-evenList = [temp for temp in range(30) if temp % 2 == 0]
+evenList = [temp for temp in range(100) if temp % 2 == 0]
 print(evenList)
